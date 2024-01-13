@@ -19,13 +19,136 @@
     />
   </head>
   <body>
-    <footer>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
-      </p>
-    </footer>
+    <div class="container">
+      <header class="header">
+        <figure class="header__logo">
+          <img src="./assets/images/logo.svg" alt="Fylo Brand" />
+        </figure>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__list">Features</li>
+            <li class="header__list">Team</li>
+            <li class="header__list">Sign In</li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <figure class="main__image">
+          <img src="./assets/images/illustration-1.svg" alt="People" />
+        </figure>
+        <div class="main__information">
+          <h1 class="main__title">
+            All your files in one secure location, accessible anywhere.
+          </h1>
+          <p class="main__description">
+            Fylo stores your most important files in one secure location. Access
+            them wherever you need, share and collaborate with friends, family,
+            and co-workers.
+          </p>
+          <form class="main__form">
+            <input
+              id="get-email"
+              class="main__email"
+              type="email"
+              name="name"
+              placeholder="Enter your email"
+            />
+            <input type="submit" value="Get Started" class="main__button" />
+          </form>
+        </div>
+      </main>
+      <section class="service">
+        <figure class="service__image">
+          <img src="./assets/images/illustration-2.svg" alt="People" />
+        </figure>
+        <div class="service__information">
+          <h2 class="service__title">Stay productive, wherever you are</h2>
+          <p class="service__description">
+            Never let location be an issue when accessing your files. Fylo has
+            you covered for all of your file storage needs.
+          </p>
+          <p class="service__description">
+            Securely share files and folders with friends, family and colleagues
+            for live collaboration. No email attachments requiered!
+          </p>
+          <button class="service__button">See how fylo works</button>
+          <div class="service__testimonial">
+            <p>
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </p>
+            <div class="service__person">
+              <img
+                src="./assets/images/avatar-testimonial.jpg"
+                alt="Avatar of Kyle"
+              />
+              <p class="service__name">Kyle Burton</p>
+              <small>Foynder & CEO, Huddle</small>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="information">
+          <h2 class="contact__title">Get early access today</h2>
+          <p class="contact__description">
+            It only tajes a minute to sign up and our free starter tier is
+            extremely generous. If you have any questions, our support team
+            would be happy to help you.
+          </p>
+        </div>
+        <form class="contact__form">
+          <input
+            id="get-email"
+            class="contact__email"
+            type="email"
+            name="name"
+            placeholder="email@example.com"
+          />
+          <input
+            type="submit"
+            value="Get Started For Free"
+            class="contact__button"
+          />
+        </form>
+      </section>
+      <footer class="footer">
+        <div class="footer__contact">
+          <img src="./assets/images/logo.svg" alt="Logo fylo" />
+          <p>Phone: +1-543-123-4567</p>
+          <p>example@fylo.com</p>
+        </div>
+        <nav class="footer__navigator">
+          <ul class="footer__lists">
+            <li class="footer__item">About us</li>
+            <li class="footer__item">Jobs</li>
+            <li class="footer__item">Press</li>
+            <li class="footer__item">Blog</li>
+          </ul>
+          <ul class="footer__lists">
+            <li class="footer__item">Contact Us</li>
+            <li class="footer__item">Terms</li>
+            <li class="footer__item">Privacy</li>
+          </ul>
+        </nav>
+        <div class="footer__socialMedia">
+          <img src="" alt="Logo Facebook" />
+          <img src="" alt="Logo Twitter" />
+          <img src="" alt="Logo Instagram" />
+        </div>
+      </footer>
+      <div class="footer__data">
+        <p class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a href="https://twitter.com/dcuevasdev" target="_blank"
+            >Daniel Cuevas</a
+          >.
+        </p>
+      </div>
+    </div>
   </body>
 </html>
