@@ -1,0 +1,39 @@
+.header {
+  @include elementAlignment(flex, space-between, center);
+  flex-wrap: wrap;
+  margin: $main-margin 0;
+  &__nav {
+    width: 50%;
+  }
+  &__list {
+    @include elementAlignment(flex, space-between, center);
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  &__item {
+    margin: 0.4rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    a {
+      color: #000;
+      text-decoration: none;
+    }
+    a:hover {
+      color: $accent-bright-color;
+      text-decoration: underline;
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  .header__logo {
+    width: 50%;
+    margin: 0 auto;
+    img {
+      width: 100%;
+    }
+  }
+  .header__nav {
+    width: 100%;
+  }
+}

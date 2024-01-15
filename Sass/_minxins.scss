@@ -1,0 +1,6 @@
+// === Element Alignment ===
+@mixin elementAlignment($display, $justify, $align) {
+  display: $display;
+  justify-content: $justify;
+  align-items: $align;
+}
