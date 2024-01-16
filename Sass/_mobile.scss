@@ -2,11 +2,5 @@
 @import "_minxins.scss";
 @import "globals.scss";
 @import "_header.scss";
-@import "_main.scss";
-
-.service__image {
-  width: 100%;
-  img {
-    width: 100%;
-  }
-}
+@import "_principal.scss";
+@import "_service.scss";
