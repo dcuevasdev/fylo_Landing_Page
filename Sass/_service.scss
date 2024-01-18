@@ -1,5 +1,7 @@
 .service {
   margin-bottom: $main-margin;
+  padding-bottom: $main-margin;
+  background-color: $neutral-grayish-color;
   &__image {
     width: 100%;
     margin-bottom: $small-margin;
@@ -8,8 +10,59 @@
     }
   }
   &__title {
+    margin-bottom: $small-margin;
     font-family: $font-heading;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
+    color: $primary-dark-color;
+  }
+  &__description {
+    margin-bottom: $small-margin;
+    font-size: 1.4rem;
+    color: $neutral-gray-color;
+  }
+  &__button {
+    display: flex;
+    margin: $medium-margin auto;
+    padding-bottom: 0.4rem;
+    border: none;
+    border-bottom: 1px solid $accent-moderate-color;
+    background: none;
+    font-size: 1.4rem;
+    color: $accent-moderate-color;
+    cursor: pointer;
+    .buttonIcon {
+      width: 1.8rem;
+      height: 1.8rem;
+      margin-left: 0.8rem;
+      background-image: url("../assets/images/icon-arrow.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+  &__testimonial {
+    width: 80%;
+    max-width: 35rem;
+    padding: $medium-margin;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px $neutral-grayish-color;
+  }
+  &__opinion {
+    margin-bottom: $small-margin;
+  }
+  &__person {
+    @include elementAlignment(flex, lef, center);
+    gap: 1.6rem;
+    width: 90%;
+    img {
+      width: 5rem;
+      height: 5rem;
+      border-radius: 50%;
+    }
+  }
+  &__name {
+    font-weight: bold;
   }
 }

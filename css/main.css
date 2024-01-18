@@ -64,7 +64,7 @@ html {
     color: #070439; }
   .main__description {
     margin-bottom: 1.6rem;
-    font-size: 1.6rem; }
+    font-size: 1.4rem; }
   .main__form {
     display: flex;
     justify-content: center;
@@ -86,15 +86,62 @@ html {
     background: #3065f8; }
 
 .service {
-  margin-bottom: 4.8rem; }
+  margin-bottom: 4.8rem;
+  padding-bottom: 4.8rem;
+  background-color: #f6f6fe; }
   .service__image {
     width: 100%;
     margin-bottom: 1.6rem; }
     .service__image img {
       width: 100%; }
   .service__title {
+    margin-bottom: 1.6rem;
     font-family: "Raleway", sans-serif;
-    font-size: 2rem;
-    text-align: center; }
+    font-size: 1.8rem;
+    text-align: center;
+    color: #070439; }
+  .service__description {
+    margin-bottom: 1.6rem;
+    font-size: 1.4rem;
+    color: #bfbfbf; }
+  .service__button {
+    display: flex;
+    margin: 2.4rem auto;
+    padding-bottom: 0.4rem;
+    border: none;
+    border-bottom: 1px solid #3c9f8f;
+    background: none;
+    font-size: 1.4rem;
+    color: #3c9f8f;
+    cursor: pointer; }
+    .service__button .buttonIcon {
+      width: 1.8rem;
+      height: 1.8rem;
+      margin-left: 0.8rem;
+      background-image: url("../assets/images/icon-arrow.svg");
+      background-repeat: no-repeat;
+      background-position: center; }
+  .service__testimonial {
+    width: 80%;
+    max-width: 35rem;
+    padding: 2.4rem;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px #f6f6fe; }
+  .service__opinion {
+    margin-bottom: 1.6rem; }
+  .service__person {
+    display: flex;
+    justify-content: lef;
+    align-items: center;
+    gap: 1.6rem;
+    width: 90%; }
+    .service__person img {
+      width: 5rem;
+      height: 5rem;
+      border-radius: 50%; }
+  .service__name {
+    font-weight: bold; }
 
 /*# sourceMappingURL=main.css.map */
