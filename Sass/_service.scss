@@ -1,12 +1,12 @@
 .service {
-  margin-bottom: $main-margin;
   padding-bottom: $main-margin;
   background-color: $neutral-grayish-color;
   &__image {
     width: 100%;
-    margin-bottom: $small-margin;
+
     img {
       width: 100%;
+      margin: $main-margin auto;
     }
   }
   &__title {

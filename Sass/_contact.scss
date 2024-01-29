@@ -1,0 +1,41 @@
+.contact {
+  padding: $main-margin 0;
+  background-color: $primary-desaturated-color;
+  .information {
+    margin-bottom: $medium-margin;
+    color: $neutral-grayish-color;
+    text-align: center;
+  }
+  &__title {
+    margin-bottom: $small-margin;
+    font-family: $font-heading;
+    font-size: 2rem;
+  }
+  &__description {
+    font-size: 1.4rem;
+  }
+  &__form {
+    @include elementAlignment(flex, center, center);
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  &__email,
+  &__button {
+    width: 25rem;
+    height: 4rem;
+    border-radius: 0.4rem;
+  }
+  &__email {
+    border: 1px solid $primary-desaturated-color;
+  }
+  &__email::-webkit-input-placeholder {
+    padding: $small-margin;
+    color: $neutral-gray-color;
+  }
+  &__button {
+    border: none;
+    cursor: pointer;
+    color: $neutral-grayish-color;
+    background: $accent-bright-color;
+  }
+}

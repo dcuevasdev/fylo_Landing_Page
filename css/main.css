@@ -86,14 +86,13 @@ html {
     background: #3065f8; }
 
 .service {
-  margin-bottom: 4.8rem;
   padding-bottom: 4.8rem;
   background-color: #f6f6fe; }
   .service__image {
-    width: 100%;
-    margin-bottom: 1.6rem; }
+    width: 100%; }
     .service__image img {
-      width: 100%; }
+      width: 100%;
+      margin: 4.8rem auto; }
   .service__title {
     margin-bottom: 1.6rem;
     font-family: "Raleway", sans-serif;
@@ -143,5 +142,39 @@ html {
       border-radius: 50%; }
   .service__name {
     font-weight: bold; }
+
+.contact {
+  padding: 4.8rem 0;
+  background-color: #585989; }
+  .contact .information {
+    margin-bottom: 2.4rem;
+    color: #f6f6fe;
+    text-align: center; }
+  .contact__title {
+    margin-bottom: 1.6rem;
+    font-family: "Raleway", sans-serif;
+    font-size: 2rem; }
+  .contact__description {
+    font-size: 1.4rem; }
+  .contact__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.8rem; }
+  .contact__email, .contact__button {
+    width: 25rem;
+    height: 4rem;
+    border-radius: 0.4rem; }
+  .contact__email {
+    border: 1px solid #585989; }
+  .contact__email::-webkit-input-placeholder {
+    padding: 1.6rem;
+    color: #bfbfbf; }
+  .contact__button {
+    border: none;
+    cursor: pointer;
+    color: #f6f6fe;
+    background: #3065f8; }
 
 /*# sourceMappingURL=main.css.map */
