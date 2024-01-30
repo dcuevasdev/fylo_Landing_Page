@@ -68,7 +68,7 @@ html {
   .main__form {
     display: flex;
     justify-content: center;
-    align-items: inherit;
+    align-items: initial;
     flex-direction: column;
     gap: 1.6rem; }
   .main__email, .main__button {
@@ -222,5 +222,73 @@ html {
     .footer__data a:hover {
       color: #3065f8;
       text-decoration: underline; }
+
+@media (min-width: 720px) {
+  .header__nav {
+    width: 30%; }
+
+  .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7.2rem; }
+    .main__image {
+      width: 50%;
+      order: 2; }
+    .main__information {
+      align-items: start;
+      width: 50%;
+      text-align: left; }
+    .main__form {
+      justify-content: space-between;
+      flex-direction: row;
+      gap: 0.8rem; }
+    .main__email {
+      width: 100%; }
+    .main__button {
+      width: 50%; }
+
+  .service {
+    padding-top: 4.8rem; }
+    .service__container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 9.6rem; }
+    .service__image {
+      order: 2;
+      width: 60%; }
+    .service__title {
+      text-align: left; }
+    .service__button {
+      margin: 2.4rem 0; }
+    .service__testimonial {
+      margin: 0; }
+
+  .contact__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 9.6rem; }
+  .contact .information {
+    width: 50%;
+    text-align: left; }
+  .contact__form {
+    align-items: start;
+    width: 40%; }
+  .contact__email {
+    width: 100%; }
+  .contact__button {
+    width: 50%; }
+
+  .footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .footer__navigator {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 9.6rem; } }
 
 /*# sourceMappingURL=main.css.map */

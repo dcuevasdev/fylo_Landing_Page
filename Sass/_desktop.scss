@@ -1,0 +1,84 @@
+@media (min-width: 720px) {
+  .header {
+    &__nav {
+      width: 30%;
+    }
+  }
+
+  .main {
+    @include elementAlignment(flex, space-between, center);
+    gap: 7.2rem;
+    &__image {
+      width: 50%;
+      order: 2;
+    }
+    &__information {
+      align-items: start;
+      width: 50%;
+      text-align: left;
+    }
+    &__form {
+      justify-content: space-between;
+      flex-direction: row;
+      gap: 0.8rem;
+    }
+    &__email {
+      width: 100%;
+    }
+    &__button {
+      width: 50%;
+    }
+  }
+
+  .service {
+    padding-top: $main-margin;
+    &__container {
+      @include elementAlignment(flex, space-between, center);
+      gap: 9.6rem;
+    }
+    &__image {
+      order: 2;
+      width: 60%;
+    }
+    &__title {
+      text-align: left;
+    }
+    &__button {
+      margin: $medium-margin 0;
+    }
+    &__testimonial {
+      margin: 0;
+    }
+  }
+
+  .contact {
+    &__container {
+      @include elementAlignment(flex, space-between, center);
+      gap: 9.6rem;
+    }
+    .information {
+      width: 50%;
+      text-align: left;
+    }
+    &__form {
+      align-items: start;
+      width: 40%;
+    }
+    &__email {
+      width: 100%;
+    }
+    &__button {
+      width: 50%;
+    }
+  }
+
+  .footer {
+    &__container {
+      @include elementAlignment(flex, space-between, center);
+    }
+    &__navigator {
+      @include elementAlignment(flex, space-between, start);
+      gap: 9.6rem;
+    }
+  }
+}

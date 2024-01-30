@@ -21,7 +21,7 @@
     font-size: 1.4rem;
   }
   &__form {
-    @include elementAlignment(flex, center, inherit);
+    @include elementAlignment(flex, center, initial);
     flex-direction: column;
     gap: $small-margin;
   }
