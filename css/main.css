@@ -177,4 +177,50 @@ html {
     color: #f6f6fe;
     background: #3065f8; }
 
+.footer {
+  padding: 4.8rem 0;
+  font-size: 1.4rem;
+  color: #fff;
+  background-color: #070439; }
+  .footer__contact {
+    margin-bottom: 4.8rem; }
+    .footer__contact svg {
+      margin-bottom: 1.6rem; }
+    .footer__contact p {
+      margin-bottom: 1.6rem; }
+      .footer__contact p .logo-phone {
+        background-image: url(../assets/images/icon-phone.svg); }
+      .footer__contact p .logo-email {
+        background-image: url(../assets/images/icon-email.svg); }
+      .footer__contact p .logo-phone,
+      .footer__contact p .logo-email {
+        display: inline-block;
+        width: 1.8rem;
+        height: 1.8rem;
+        margin-right: 0.8rem;
+        background-repeat: no-repeat;
+        background-position: center; }
+  .footer__lists {
+    margin-bottom: 4.8rem;
+    list-style: none; }
+    .footer__lists li {
+      display: block;
+      margin-bottom: 1.2rem; }
+  .footer__socialMedia {
+    text-align: center; }
+    .footer__socialMedia img {
+      width: 3rem;
+      margin-left: 0.8rem; }
+  .footer__data {
+    padding: 2.4rem 0;
+    font-size: 1.4rem;
+    text-align: center; }
+    .footer__data a {
+      font-weight: bold;
+      color: #070439;
+      text-decoration: none; }
+    .footer__data a:hover {
+      color: #3065f8;
+      text-decoration: underline; }
+
 /*# sourceMappingURL=main.css.map */

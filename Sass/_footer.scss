@@ -1,0 +1,59 @@
+.footer {
+  padding: $main-margin 0;
+  font-size: 1.4rem;
+  color: #fff;
+  background-color: $primary-dark-color;
+  &__contact {
+    margin-bottom: $main-margin;
+    svg {
+      margin-bottom: $small-margin;
+    }
+    p {
+      margin-bottom: $small-margin;
+      .logo-phone {
+        background-image: url(../assets/images/icon-phone.svg);
+      }
+      .logo-email {
+        background-image: url(../assets/images/icon-email.svg);
+      }
+      .logo-phone,
+      .logo-email {
+        display: inline-block;
+        width: 1.8rem;
+        height: 1.8rem;
+        margin-right: 0.8rem;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+  }
+  &__lists {
+    margin-bottom: $main-margin;
+    list-style: none;
+    li {
+      display: block;
+      margin-bottom: 1.2rem;
+    }
+  }
+  &__socialMedia {
+    text-align: center;
+    img {
+      width: 3rem;
+      margin-left: 0.8rem;
+    }
+  }
+  &__data {
+    padding: 2.4rem 0;
+    font-size: 1.4rem;
+    text-align: center;
+    a {
+      font-weight: bold;
+      color: $primary-dark-color;
+      text-decoration: none;
+    }
+    a:hover {
+      color: $accent-bright-color;
+      text-decoration: underline;
+    }
+  }
+}
