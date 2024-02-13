@@ -22,7 +22,7 @@
 
 ## 🚀 Deploy
 
-En el siguiente link puedes ver la [web del challenge](https://dcuevasdev.github.io/column-preview-card-component/ "web del challenge")
+En el siguiente link puedes ver la [web del challenge](https://dcuevasdev.github.io/fylo_Landing_Page/ "web del challenge")
 
 ### Desktop 💻
 
